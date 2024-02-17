@@ -11,6 +11,8 @@ import com.student.project.entities.User;
 @RequestMapping(value = "/user")
 public class UserResource {
 	
+
+	
 	@GetMapping
 	public ResponseEntity<User> findAll() {
 		User u = new User(1L, "Maria", "maria@gmail.com", "1234864", "54231");
